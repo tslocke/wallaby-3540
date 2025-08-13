@@ -1,5 +1,5 @@
 import { mergeConfig, type ViteDevServer } from 'vite'
-import { baseConfig } from './vite.config.base'
+import { baseConfig } from '../../vite.config.base'
 import type { IncomingMessage, ServerResponse } from 'http'
 import solid from 'vite-plugin-solid'
 import tailwindcss from '@tailwindcss/vite'

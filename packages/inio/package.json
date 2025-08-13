@@ -2,6 +2,7 @@
   "name": "inio",
   "version": "0.1.0",
   "main": "src/App.tsx",
+  "type": "module",
   "scripts": {
     "test": "vitest",
     "start": "vite"
@@ -9,15 +10,11 @@
   "devDependencies": {
     "@solidjs/testing-library": "^0.8.10",
     "@tailwindcss/vite": "^4.1.11",
-    "@types/node": "^24.0.10",
     "jsdom": "^26.1.0",
     "solid-js": "^1.9.2",
-    "typescript": "^5.8.3",
-    "vite": "^7.0.2",
-    "vite-plugin-solid": "^2.10.2",
-    "vite-tsconfig-paths": "^5.1.4",
-    "vitest": "^3.2.4"
+    "vite-plugin-solid": "^2.10.2"
   },
   "dependencies": {
+    "@testing-library/jest-dom": "^6.6.4"
   }
 }
